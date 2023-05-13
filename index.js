@@ -13,3 +13,11 @@ http.createServer((req,res)=>{
 res.write("Helllo this is test running");
 res.end();
 }).listen(4500)
+
+/* ----------------------------------- */
+
+/*Package JSON learning */
+
+const colors = require('colors');
+
+console.log("package json".bgGreen)
